@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <img src="dango.png" alt="" class="logo">
+ 
+    <nav class="n">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        
+    </nav>
+
+  <div class="sidebar" id="sidebar">
+    <a href="https://www.w3schools.com/html/ "class="button">HTML</a><br><br>
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwithITizv_-AhUH5ncKHc8SBVEYABABGgJlZg&ohost=www.google.com&cid=CAESauD23sHVa2zJIJms-29UVvaC7tsNE_VK6oRbS9rVdsXm8kZcRLGh5QyC605Hj_Zn0VGjmVqzBGB_UtC9Mx3LZLdxzFJHV8SwukJoopDExvnMME54FZ-lLy4D-DnmHRd5AuBcOKkEG23IKDM&sig=AOD64_3YCJc5nIuNL_G9UDaQwJ6-j7rvvA&q&adurl&ved=2ahUKEwiUj_zhzv_-AhWH_aQKHeu1CJQQ0Qx6BAgIEAE" class="button">JavaScript</a><br><br>
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwifopT1zv_-AhWXzXcKHY4vAZMYABAAGgJlZg&ohost=www.google.com&cid=CAESauD2MZUS41t7ejVQQAYCeIn0hDqTkdM7yuGCgwZyJ2uA45hvwljS82ys3nLaAJwCIbXoHHM5crm9M5zh4N_RU-gyUKO4u23m5apZv8YrZ-HIYIu2KZ_FUrDbi9VsP_V9yixX5nzZDeeh898&sig=AOD64_3BBkWgmI4T4L2qUIixPSs39chLdQ&q&adurl&ved=2ahUKEwjf9Yv1zv_-AhXNzqQKHd-XDpwQ0Qx6BAgJEAE" class="button">Python</a><br><br>
+    <a href="https://www.codecademy.com/learn/react-101" class="button">React</a><br><br>
+    <a href="https://www.w3schools.com/django/" class="button">Django</a><br><br>
+    <a href="https://www.w3schools.com/angular/default.asp" class="button">Angular</a><br><br>
+    <a href="https://www.w3schools.com/php/" class="button">Php</a><br><br>
+    <a href="https://www.codecademy.com/learn/learn-c-plus-plus" class="button">C++</a><br><br>
+  </div>
+  <div class="content">
+    <!-- Rest of your page content goes here -->
+    <p class="discr">
+        Introducing Dango, the ultimate programming website offering the finest coding lessons. <br> With a comprehensive curriculum and expert instructors, Dango ensures an unparalleled learning experience. <br> From beginner-friendly tutorials to advanced concepts, every lesson is designed to enhance coding skills. <br> Engaging projects, real-world examples, and interactive exercises make learning enjoyable and practical. <br> Dango's supportive community fosters collaboration and knowledge sharing. <br> Stay ahead in the ever-evolving tech world with Dango's up-to-date content and personalized learning paths. <br> Unleash your programming potential and embark on an exciting coding journey with Dango today.
+    </p>
+  </div>
+  <div class="get">
+    <p>Get Ready To Learn...</p>
+  </div>
+
+  <script>
+    // JavaScript code to manipulate the sidebar
+    // Add event listener to toggle sidebar visibility
+    document.addEventListener("DOMContentLoaded", function() {
+      var sidebar = document.getElementById("sidebar");
+      var content = document.querySelector(".content");
+
+      sidebar.addEventListener("click", function() {
+        content.classList.toggle("sidebar-open");
+      });
+    });
+  </script>
+  <div class="end">
+    <p>&copy;Kennedy Wanakacha</p>
+  </div>
+</body>
+</html>
